@@ -118,7 +118,7 @@
   }
 
   body {
-    background-image: url(/image/header-shapes\ mobile.png);
+    background-image: url(/header-shapes\ mobile.png);
     background-size: cover;
   }
 }
@@ -139,7 +139,7 @@
   }
 
   body {
-    background-image: url(/image/Header\ bg@2x.png);
+    background-image: url(/Header\ bg@2x.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
