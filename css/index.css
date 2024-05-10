@@ -18,7 +18,8 @@
   padding-bottom: 0;
   padding-top: 0;
 }
-.paragraph2{
+
+.paragraph2 {
   font-size: 30px;
 }
 
@@ -47,10 +48,11 @@
   color: blue;
   padding-top: 0;
 }
-.link2{
+
+.link2 {
   font-size: 25px;
-    color: blue;
-    padding-top: 0;
+  color: blue;
+  padding-top: 0;
 }
 
 .link:hover {
@@ -117,7 +119,6 @@
   height: 10px;
 }
 
-
 @media (max-width: 767px) {
   .menu-items {
     display: none;
@@ -140,19 +141,17 @@
 
   .im1 {
     width: 100%;
-
   }
 
   .text2 {
     text-align: left;
     margin-left: 12px;
     font-size: 40px;
-
   }
 
   .third {
     display: flex;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .ul {
@@ -178,16 +177,17 @@
 
   .links {
     margin-left: 28px;
-
   }
+
   .li1 {
-    background-color: #EBEBFF;
+    background-color: #ebebff;
     border-radius: 10px;
     padding: 10px;
     text-decoration-line: none;
   }
+
   .li2 {
-    background-color: #EBEBFF;
+    background-color: #ebebff;
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
@@ -195,12 +195,11 @@
   }
 
   .li3 {
-    background-color: #EBEBFF;
+    background-color: #ebebff;
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
     text-decoration-line: none;
-
   }
 
   .button {
@@ -216,101 +215,113 @@
     height: 46px;
     border: 1px solid #6070ff;
   }
-  .clr{
+
+  .clr {
     color: #6070ff;
     font-size: 18px;
   }
-  .siz{
+
+  .siz {
     font-size: 150%;
   }
-.button2 {
-  margin-top: 20px;
-  margin-left: 25px;
-  padding: 10px;
+
+  .button2 {
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 10px;
+  }
+
+  .btn2 {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    width: 162px;
+    height: 48px;
+  }
+
+  .clr2 {
+    color: #6070ff;
+    font-size: 18px;
+  }
+
+  .lang {
+    font-size: 30px;
+    margin-left: 35px;
+    color: blue;
+  }
+
+  .link2 {
+    margin-left: 35px;
+  }
+
+  .my-anchor11 {
+    padding: 5px;
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-bottom: 150px;
+  }
+
+  .my-anchor21 {
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 150px;
+  }
+
+  .my-anchor31 {
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 150px;
+  }
+
+  .my-anchor41 {
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 150px;
+  }
+
+  .my-anchor51 {
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 150px;
+  }
+
+  .lan {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lan1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+  }
+
+  .lan2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+  }
+
+  .lan3 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+  }
+
+  .lan4 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+  }
+
+  .lan5 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    padding-top: 5px;
+  }
 }
 
-.btn2 {
-border: 1px solid #6070ff;
-  border-radius: 8px;
-  padding: 12px;
-  width: 162px;
-  height: 48px;
-}
-
-.clr2 {
-  color: #6070ff;
-  font-size: 18px;
-}
-.lang{
-      font-size: 30px;
-      margin-left: 35px;
-      color: blue;
-    }
-    .link2{
-      margin-left: 35px;
-    }
-        .my-anchor11 {
-          padding: 5px;
-          margin-left: 35px;
-          margin-right: 10px;
-          margin-bottom: 150px;
-        }
-    
-        .my-anchor21 {
-          padding: 5px;
-          margin-left: 10px;
-          margin-bottom: 150px;
-        }
-    
-        .my-anchor31 {
-          padding: 5px;
-          margin-left: 10px;
-          margin-bottom: 150px;
-        }
-     .my-anchor41 {
-  padding: 5px;
-   margin-left: 10px;
- margin-bottom: 150px;
- }
-    
-.my-anchor51 {
-padding: 5px;
- margin-left: 10px;
-margin-bottom: 150px;
-}
-.lan{
-  display: flex;
-  justify-content: space-between;
-}
-.lan1 {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 5px;
-}
-.lan2 {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 25px;
-}
-.lan3 {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 25px;
-}
-.lan4 {
-  display: flex;
-  justify-content: space-around;
-  padding-top:25px;
-}
-.lan5 {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 50px;
-  padding-top: 5px;
-
-}
-
-}
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
@@ -337,6 +348,7 @@ margin-bottom: 150px;
     margin-left: 150px;
   }
 }
+
 .main {
   height: 93vh;
   align-items: center;
