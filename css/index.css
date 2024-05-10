@@ -1,0 +1,162 @@
+.logo {
+  font-size: 15px;
+  color: blueviolet;
+}
+
+.menu-icon {
+  display: block;
+  font-size: 20px;
+}
+
+.paragraph {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.header {
+  text-align: right;
+  margin-top: 0%;
+  font-size: 16px;
+  height: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 50px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 120px;
+  margin-top: 120px;
+}
+
+.link {
+  font-size: 20px;
+  margin-left: 120px;
+  margin-bottom: 10px;
+  color: blue;
+  padding-top: 0;
+}
+
+.link:hover {
+  color: black;
+}
+
+.menu {
+  float: right;
+  margin-top: 0;
+}
+
+.menu-items {
+  list-style-type: none;
+  margin-top: 0;
+  float: inline-end;
+}
+
+.menu-items li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu-items a:hover {
+  color: red;
+}
+
+.menu-items li:last-child {
+  margin-right: 10px;
+}
+
+.my-anchor1 {
+  padding: 5px;
+  margin-left: 120px;
+  margin-right: 10px;
+  margin-bottom: 150px;
+}
+
+.my-anchor2 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 150px;
+}
+
+.my-anchor3 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 150px;
+}
+
+.my-anchor4 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 150px;
+}
+
+.my-anchor5 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 150px;
+}
+
+.menu-toggle img {
+  width: 20px;
+  height: 10px;
+}
+
+@media (max-width: 767px) {
+  .menu-items {
+    display: none;
+  }
+
+  .menu-toggle img {
+    display: inline-block;
+  }
+
+  body {
+    background-image: url(/header_shape_mobile.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-items {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-items li {
+    display: block;
+    margin: 10px;
+  }
+
+  body {
+    background-image: url(/Header_bg@2x.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    margin-left: 150px;
+  }
+}
+
+.main {
+  height: 93vh;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -5%;
+  margin-bottom: -5%;
+  width: 100%;
+  position: relative;
+  max-width: 90%;
+}
