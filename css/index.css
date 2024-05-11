@@ -128,7 +128,7 @@
   }
 
   .page1 {
-    background-image: url(/image/header-shapes\ mobile.png);
+    background-image: url("image/mobile.png");
     background-size: cover;
   }
 
