@@ -128,8 +128,10 @@
   }
 
   .page1 {
-    background-image: url("image/header-shapes mobile.jpg");
+  background-image: url(/image/header-shapes\ mobile.png);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .secondp {
