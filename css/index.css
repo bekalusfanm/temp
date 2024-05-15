@@ -420,6 +420,7 @@ input[type="submit"] {
 
 .contact {
   background-color: #6070ff;
+  border-top-left-radius: 15%;
 }
 
 .cent1 {
