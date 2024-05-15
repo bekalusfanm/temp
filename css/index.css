@@ -141,7 +141,7 @@
   }
 
   .im1 {
-    width: 100%;
+    width: 200%;
   }
 
   .text2 {
@@ -353,6 +353,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: -40%;
   }
 
   .main {
@@ -361,6 +362,38 @@
 
   form {
     width: 60%;
+  }
+
+  .firstca {
+    display: flex;
+    margin-bottom: 10%;
+  }
+
+  .im1 {
+    width: 100%;
+  }
+
+  .p2 {
+    margin-left: 10%;
+    margin-right: 3%;
+  }
+
+  .main2 {
+    margin-left: 10%;
+    margin-right: 3%;
+  }
+
+  .main3 {
+    margin-right: 5%;
+  }
+
+  .contact {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .cont {
+    margin-right: 5%;
   }
 }
 
@@ -373,6 +406,10 @@
   width: 100%;
   position: relative;
   max-width: 90%;
+}
+
+.p2 {
+  width: 50%;
 }
 
 .container {
