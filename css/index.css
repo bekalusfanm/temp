@@ -333,7 +333,6 @@
   }
 }
 
-
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
@@ -364,7 +363,6 @@
     width: 60%;
   }
 }
-
 
 .main {
   height: 93vh;
@@ -397,7 +395,6 @@ input {
   margin-bottom: 10px;
   width: 100%;
   padding: 2%;
-
 }
 
 textarea {
@@ -414,8 +411,6 @@ input[type="submit"] {
   border-radius: 15%;
   padding: 3%;
   color: blue;
-
-
 }
 
 .contact {
