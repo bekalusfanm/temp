@@ -327,7 +327,12 @@
     margin-left: 50px;
     padding-top: 5px;
   }
+
+  form {
+    width: 80%;
+  }
 }
+
 
 @media (min-width: 768px) {
   .menu-toggle {
@@ -354,7 +359,12 @@
   .main {
     margin-left: 150px;
   }
+
+  form {
+    width: 60%;
+  }
 }
+
 
 .main {
   height: 93vh;
@@ -365,4 +375,64 @@
   width: 100%;
   position: relative;
   max-width: 90%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Styles for form elements */
+input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 2%;
+
+}
+
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 90%;
+  padding: 7%;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  width: 20%;
+  margin-left: 40%;
+  border-radius: 15%;
+  padding: 3%;
+  color: blue;
+
+
+}
+
+.contact {
+  background-color: #6070ff;
+}
+
+.cent1 {
+  align-self: center;
+  margin-left: 35%;
+  color: white;
+  font-size: 200%;
+}
+
+.cent2 {
+  align-self: center;
+  margin-left: 15%;
+  font-family: sans-serif;
+  font-size: 150%;
+  color: white;
 }
