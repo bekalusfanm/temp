@@ -538,3 +538,8 @@ nav ul {
 .sidebar a {
   width: 100%;
 }
+
+.error-message {
+  color: black;
+  margin-bottom: 10px;
+}
